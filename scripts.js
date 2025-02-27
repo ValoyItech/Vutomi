@@ -50,10 +50,10 @@ AOS.init({
 // Slideshow functionality
 document.addEventListener("DOMContentLoaded", function () {
     const slideshows = {
-        '.male-slideshow': ['smart5.jpg', 'men2.jpg', 'smart2.jpg', 'men3.jpg', 'smart6.jpg'],
-        '.kids-slideshow': ['smart2.jpg', 'smart1.jpg', 'men3.jpg', 'smart5.jpg', 'men2.jpg'],
-        '.women-slideshow': ['smart1.jpg', 'smart2.jpg', 'smart3.jpg', 'smart1.jpg'],
-        '.general-slideshow': ['smart3.jpg', 'men3.jpg', 'smart1.jpg', 'men2.jpg', 'smart6.jpg']
+        '.male-slideshow': ['smart1.jpg', 'smart2.jpg', 'smart3.jpg', 'smart4.jpg', 'smart5.jpg'],
+        '.kids-slideshow': ['smart6.jpg', 'smart7.jpg', 'smart8.jpg', 'smart9.jpg', 'smart10.jpg'],
+        '.women-slideshow': ['smart5.jpg', 'smart4.jpg', 'smart1.jpg', 'smart2.jpg', 'smart3.jpg'],
+        '.general-slideshow': ['smart10.jpg', 'smart9.jpg', 'smart6.jpg', 'smart7.jpg', 'smart8.jpg']
     };
 
     Object.entries(slideshows).forEach(([selector, images]) => {
