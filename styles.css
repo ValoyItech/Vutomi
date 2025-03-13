@@ -1041,3 +1041,34 @@ header.hidden {
 .contact-card a:hover {
     color: #004d00; /* Darker green on hover */
 }
+
+/* Booking Section Styling */
+.setmore-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Enable Scrolling in Mobile */
+#setmore-iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .setmore-container {
+        width: 95%;
+        height: 600px;
+        overflow: hidden; /* Prevent extra spacing */
+    }
+
+    #setmore-iframe {
+        height: 600px;
+        overflow-y: auto; /* Allow vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+    }
+}
